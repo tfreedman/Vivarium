@@ -1,6 +1,21 @@
-Note: This project was an assignment for Ryerson’s second level Computer Science course. Below is the readme file that was submitted at the time of submission, in the spring of 2011:
+Vivarium
+========
 
-——
+Note: This project was an assignment for Ryerson’s second level Computer Science course. The assignment was to create a vivarium, with various creatures that would interact with one another in the event of a collision. As the purpose of the assignment was to partially show that you understood object oriented programming, many of the classes were required, and do not necessarily reflect the way I would have built it if I had full control.
+
+![Example Run](/screenshot.png)
+
+Usage:
+------
+
+~/Vivarium $ javac VivariumViewer.java 
+~/Vivarium $ java VivariumViewer
+
+---
+
+Below is the readme file that was submitted at the time of submission, in the spring of 2011:
+
+——-
 
 For my project, rather than creating a vivarium with generic shapes, I opted to recreate a small portion of Kirby's Dream Land, a Game Boy game from 1992. The creatures are all based on those in the game, as is the music and background. While we aren't being marked for things like including music, some of the sound effects are triggered during collisionResponse events, so you'd be missing out if you couldn't hear it.
 
@@ -21,22 +36,26 @@ Below is a table of the collisionResponse events that are generated when each th
 Block interacts with everything.
 Creature (Default Character) is suicidal. Everything will kill it. Since it's boring and is just a square, I've left it out of the default submission.
 
-Kirby -> Kirby == Bounces off each other
-Kirby -> Gordo == Death
-Kirby -> Squishy == Death to Squishy, flicker Kirby's sprite
-Kirby -> WaddleDee == Death to WaddleDee, flicker Kirby's sprite
+Kirby -> Kirby == Bounces off each other  
+Kirby -> Gordo == Death  
+Kirby -> Squishy == Death to Squishy, flicker Kirby's sprite  
+Kirby -> WaddleDee == Death to WaddleDee, flicker Kirby's sprite  
 
-WaddleDee -> WaddleDee == Bounces off each other
-WaddleDee -> Kirby == Death to WaddleDee
-WaddleDee -> Gordo == Death to WaddleDee
-WaddleDee -> Squishy == Flail wildly until Squishy leaves.
+WaddleDee -> WaddleDee == Bounces off each other  
+WaddleDee -> Kirby == Death to WaddleDee  
+WaddleDee -> Gordo == Death to WaddleDee  
+WaddleDee -> Squishy == Flail wildly until Squishy leaves.  
 
-Gordo -> Gordo == Bounces off each other
-Gordo -> Kirby == Death to Kirby
-Gordo -> Squishy == Death to Squishy
-Gordo -> WaddleDee == Death to WaddleDee
+Gordo -> Gordo == Bounces off each other  
+Gordo -> Kirby == Death to Kirby  
+Gordo -> Squishy == Death to Squishy  
+Gordo -> WaddleDee == Death to WaddleDee  
 
-Squishy -> Gordo == Death to Squishy
-Squishy -> Kirby == Death to Squishy
-Squishy -> Squishy == Bounces off each other
-Squishy -> WaddleDee/Block/Walls == Changes Color
+Squishy -> Gordo == Death to Squishy  
+Squishy -> Kirby == Death to Squishy  
+Squishy -> Squishy == Bounces off each other  
+Squishy -> WaddleDee/Block/Walls == Changes Color  
+
+--
+
+To run:
