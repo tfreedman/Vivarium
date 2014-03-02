@@ -8,10 +8,11 @@ Note: This project was an assignment for Ryerson’s second level Computer Scien
 Usage:
 ------
 
-~/Vivarium $ javac VivariumViewer.java 
-~/Vivarium $ java VivariumViewer
+~/Vivarium $ javac VivariumViewer.java   
+~/Vivarium $ java VivariumViewer  
 
----
+Details:
+--------
 
 Below is the readme file that was submitted at the time of submission, in the spring of 2011:
 
