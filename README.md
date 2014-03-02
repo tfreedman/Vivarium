@@ -1,7 +1,7 @@
 Vivarium
 ========
 
-Note: This project was an assignment for Ryerson’s second level Computer Science course. The assignment was to create a vivarium, with various creatures that would interact with one another in the event of a collision. As the purpose of the assignment was to partially show that you understood object oriented programming, many of the classes were required, and do not necessarily reflect the way I would have built it if I had full control.
+Note: This project was an assignment for Ryerson’s second Computer Science course. The assignment was to create a vivarium, with various creatures that would interact with one another in the event of a collision. As the purpose of the assignment was to partially show that you understood object oriented programming, many of the classes were required, and do not necessarily reflect the way I would have built it if I had full control.
 
 ![Example Run](/screenshot.png)
 
@@ -55,8 +55,4 @@ Gordo -> WaddleDee == Death to WaddleDee
 Squishy -> Gordo == Death to Squishy  
 Squishy -> Kirby == Death to Squishy  
 Squishy -> Squishy == Bounces off each other  
-Squishy -> WaddleDee/Block/Walls == Changes Color  
-
---
-
-To run:
+Squishy -> WaddleDee/Block/Walls == Changes Color
